@@ -79,3 +79,48 @@ audio {
 
    
 }
+
+@media(max-width:640px){
+    .audio{
+        display: flex;
+        gap: 10px;
+        width: 270px;
+    }
+    .container{
+        align-self: center;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        margin-top: 6%;
+        width: 300px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+    
+    }
+    
+    .container img{
+        align-self: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+    }
+    .audio button{
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+       height: 15px;
+       padding: 16px 10px;
+       background: transparent;
+       cursor: pointer;
+       border-radius: 15px;
+    }
+    audio {
+        width: 200px;
+        opacity: 0.7;
+    }
+}
